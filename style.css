@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: rgb(90, 155, 190);
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+
+}
+
+nav a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 233, 241);
+    padding-bottom: 20px;
+    justify-content: center;
+
+}
+
+div {
+    padding: 2px 0;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+img {
+    width: 300px;
+    margin: 0px 50px;
+    border-radius: 15px;
+}
+
+#name {
+    font-size: 25px;
+    color: rgb(120, 12, 21);
+    margin: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#My_game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(53, 12, 120);
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(18, 56, 62);
+    background-color: rgb(122, 210, 197);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(10, 33, 37);
+    background-color: rgb(244, 248, 247);
+    margin: 10px;
+    padding: 4px 5px;
+    border-radius: 7px;
+
+}
+
+.foot {
+    display: flex;
+    padding: 15px;
+    background-color: rgb(220, 233, 244);
+}
