@@ -6,7 +6,7 @@ const getRandomNumInRange = (min, max) => {
 const getTask = () => {
     const symbol = (Math.random() > 0.5) ? "+" : "-"
     const task = `${getRandomNumInRange(0, 100)} ${symbol} ${getRandomNumInRange(0, 100)}`
-    gameState.rightAnswer = eval(task)//eval - определяем правильный ответ
+    gameState.rightAnswer = eval(task)
     return task
 }
 
